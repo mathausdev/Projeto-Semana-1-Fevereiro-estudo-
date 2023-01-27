@@ -7,11 +7,18 @@ body {
 
 .container {
   display: flex;
+  justify-content: end;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
 }
-.text-1, .text-2 {
-  flex-basis: 50%;
+.menu1, .menu2, .menu3, .menu4 {
+  
+  flex-basis: 40%;
+  float: right;
 }
-
 
 
 footer{
