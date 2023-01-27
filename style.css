@@ -1,6 +1,36 @@
 body {
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(to right, #4c6c81, #083263);
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to right, #4c6c81, #083263);
+}
+
+.container {
+  display: flex;
+}
+.text-1, .text-2 {
+  flex-basis: 50%;
+}
+
+
+
+footer{
+  margin-top: 100rem;
+  background-color: rgb(255, 255, 255);
+
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+
+}
+.roda {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
