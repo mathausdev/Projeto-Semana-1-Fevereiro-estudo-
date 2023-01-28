@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+  padding-top: 10px;
   display: flex;
   justify-content: end;
   text-transform: uppercase;
@@ -31,6 +32,16 @@ body {
 
 .menu1:hover svg {
   stroke-dashoffset: -480;
+}
+p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.fotologo {
+  float: left;
+  margin: 10px;
+
 }
 
 .mapa {
