@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: auto;
   text-align: center;
   color: white;
   background-image: linear-gradient(to right, #4c6c81, #083263);
@@ -14,12 +14,41 @@ body {
   font-size: 20px;
   text-decoration: none;
 }
-.menu1, .menu2, .menu3, .menu4 {
-  
+.menu1 {  
   flex-basis: 40%;
   float: right;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FEFEFE;
 }
 
+.menu1:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;  
+}
+
+.menu1:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
 
 footer{
   margin-top: 100rem;
