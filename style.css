@@ -5,6 +5,9 @@ body {
   background-image: linear-gradient(to right, #4c6c81, #083263);
 }
 
+html{
+  scroll-behavior: smooth
+  }
 .contato{
   padding-top: 50px;
 
@@ -48,6 +51,17 @@ p {
   margin: 10px;
 
 }
+
+a {
+  text-decoration: none;
+  
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #FEFEFE;
+}
+
 
 
 .mapa {
