@@ -22,20 +22,21 @@
 
 
     // Add an event listener to the form
-var form = document.querySelector("form");
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
+// var form = document.querySelector("form");
+// form.addEventListener("submit", function(event) {
+  // event.preventDefault();
+  
 
   // Get the input fields
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
+ // var name = document.getElementById("name").value;
+ // var email = document.getElementById("email").value;
+ // var message = document.getElementById("message").value;
 
   // Check if all fields are filled
-  if (name === "" || email === "" || message === "") {
-    alert("Por favor, preencha todos os campos!");
-    return;
-  }
+//  if (name === "" || email === "" || message === "") {
+//    alert("Por favor, preencha todos os campos!");
+//    return;
+//  }
 
   // Continue with sending the form data
-});
+// });
